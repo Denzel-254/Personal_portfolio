@@ -10,7 +10,9 @@ const Navbar = () => {
     { id: 1, name: "Home", to: "home" },
     { id: 2, name: "About", to: "about" },
     { id: 3, name: "Services", to: "services" },
-    { id: 4, name: "Contact", to: "contact" },
+    { id: 4, name: "Skills", to: "skills" },
+    { id: 5, name: "Projects", to: "project" },
+    { id: 6, name: "Contact", to: "contact" },
   ];
 
   // Smooth scroll handler
