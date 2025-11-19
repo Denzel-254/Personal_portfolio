@@ -10,8 +10,7 @@ function Button({
     "font-semibold rounded-lg transition-colors duration-200 focus:outline-none";
 
   const variants = {
-    primary:
-      "bg-green-500 hover:bg-green-700 text-white hover:bg-transparent hover:text-blue-600 hover:ring-2 hover:ring-orange-500 focus:ring-blue-900",
+    primary: "bg-green-500 hover:bg-green-700 text-white hover:bg-green-700",
     secondary:
       "bg-gray-500 text-white border border-primary-blue hover:bg-gray-700 ",
     outline:

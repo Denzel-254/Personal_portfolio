@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 w-full  z-50 shadow-sm">
+    <header className="fixed top-0 left-0 w-full backdrop-blur-2xl z-70 shadow-sm">
       <div className="max-w-7xl mx-auto px-6 py-2 flex items-center justify-between">
         <div className="flex items-center space-x-2 cursor-pointer">
           {/* <img
