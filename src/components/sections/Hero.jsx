@@ -21,9 +21,12 @@ function Hero() {
             <Button variant="primary" className="cursor-pointer ">
               My work
             </Button>
-            <Button variant="primary" className="cursor-pointer ">
-              Download CV
-            </Button>
+
+            <a href="/Techcv.pdf" download="Denzel-Cv.pdf">
+              <Button variant="primary" className="cursor-pointer ">
+                Download CV
+              </Button>
+            </a>
           </div>
         </div>
 
