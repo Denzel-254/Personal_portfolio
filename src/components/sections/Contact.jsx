@@ -8,10 +8,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_28oprhi", // your SERVICE ID
-        "template_o3ha69t", // your TEMPLATE ID
+        "service_28oprhi", // SERVICE ID
+        "template_o3ha69t", //  TEMPLATE ID
         e.target,
-        "X_QUbI0jlnnSIrQVj" // your PUBLIC KEY
+        "X_QUbI0jlnnSIrQVj" //  PUBLIC KEY
       )
       .then(
         () => {

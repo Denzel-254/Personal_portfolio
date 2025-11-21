@@ -20,24 +20,31 @@ function App() {
             element={
               <>
                 <Header />
-                <Hero />
-                <SectionWrapper className="bg-gray-900 text-white">
+
+                <section id="hero">
+                  <Hero />
+                </section>
+
+                <SectionWrapper id="about" className="bg-gray-900 text-white">
                   <About />
                 </SectionWrapper>
 
-                <SectionWrapper className="bg-gray-900 text-white">
+                <SectionWrapper
+                  id="services"
+                  className="bg-gray-900 text-white"
+                >
                   <Services />
                 </SectionWrapper>
 
-                <SectionWrapper className="bg-gray-900 text-white">
+                <SectionWrapper id="skills" className="bg-gray-900 text-white">
                   <Techstack />
                 </SectionWrapper>
 
-                <SectionWrapper className="bg-gray-900 text-white">
+                <SectionWrapper id="project" className="bg-gray-900 text-white">
                   <Projects />
                 </SectionWrapper>
 
-                <SectionWrapper className="bg-gray-900 text-white">
+                <SectionWrapper id="contact" className="bg-gray-900 text-white">
                   <Contact />
                 </SectionWrapper>
 

@@ -2,8 +2,8 @@ import Button from "../common/Button";
 
 function About() {
   return (
-    <section>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+    <section className="p-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
         <div className="ml-12">
           <img
             src="/profile1.png"

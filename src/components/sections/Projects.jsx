@@ -12,7 +12,7 @@ function Projects() {
     {
       title: "Andlly Fashion Span Store",
       desc: "A modern fashion e-commerce interface with responsive product browsing.",
-      img: "/lsm.jpeg",
+      img: "/logo.jpg",
       link: "https://artex-solutions.onrender.com/",
       tech: ["Vite", "Tailwind", "Redux"],
     },
@@ -26,7 +26,7 @@ function Projects() {
     {
       title: "QR Code Generator",
       desc: "A generator system for QR Codes with both frontend and backend support.",
-      img: "/lsm.jpeg",
+      img: "/logo.jpg",
       link: "https://artex-solutions.onrender.com/",
       tech: ["React", "Express"],
     },

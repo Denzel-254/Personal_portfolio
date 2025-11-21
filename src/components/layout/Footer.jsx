@@ -11,17 +11,23 @@ import {
 function Footer() {
   // FIXED: store components, NOT JSX
   const socialIcons = [
-    { icon: FaFacebook },
-    { icon: FaInstagram },
-    { icon: FaTwitter },
-    { icon: FaEnvelope },
-    { icon: FaYoutube },
-    { icon: FaGithub },
+    {
+      icon: FaFacebook,
+      link: "https://www.facebook.com/profile.php?id=61579494996122",
+    },
+    { icon: FaInstagram, link: "https://instagram.com/denzeldeveloper" },
+    { icon: FaTwitter, link: "https://twitter.com/yourprofile" },
+    { icon: FaEnvelope, link: "mailto:ochiengden335@gmail.com" },
+    { icon: FaYoutube, link: "https://youtube.com/yourchannel" },
+    { icon: FaGithub, link: "https://github.com/Denzel-254" },
   ];
 
   return (
     <footer className="bg-gray-900 text-green-500 py-4">
-      <hr />
+      <div className="px-10">
+        <hr />
+      </div>
+
       <div className=" w-full  px-6 text-center mt-10 flex flex-col items-center">
         {/* BRAND / TITLE */}
         <h2 className="text-3xl font-bold mb-6">Web Developer</h2>
@@ -40,12 +46,15 @@ function Footer() {
           {socialIcons.map((item, index) => {
             const Icon = item.icon;
             return (
-              <div
+              <a
                 key={index}
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 transition"
               >
-                <Icon className="text-xl" />
-              </div>
+                <Icon className="text-xl cursor-pointer" />
+              </a>
             );
           })}
         </div>

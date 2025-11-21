@@ -7,7 +7,7 @@ function Hero() {
       {/* MAIN CONTENT */}
       <div className="container pt-15 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center h-[85%] px-6">
         {/* LEFT */}
-        <div className="space-y-6">
+        <div className="space-y-2">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
             Hi, I’m Denzel <br /> Web Developer & IT Enthusiast
           </h1>
@@ -31,7 +31,7 @@ function Hero() {
         </div>
 
         {/* RIGHT */}
-        <div className=" hidden md:block md:relative md:flex md:justify-center">
+        <div className=" hidden lg:block lg:relative lg:flex lg:justify-center">
           <div className="absolute inset-0 bg-black/40 blur-2xl "></div>
           <img
             src="/profile1.png"
