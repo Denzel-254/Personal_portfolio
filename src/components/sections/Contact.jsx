@@ -1,9 +1,6 @@
 // src/components/ContactSection.jsx
 import emailjs from "emailjs-com";
 import toast from "react-hot-toast";
-import dotenv from "dotenv";
-
-dotenv.config();
 
 function Contact() {
   function sendEmail(e) {
@@ -11,10 +8,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "process.env.SERVICE_ID", // SERVICE ID
-        "process.env.TEMPLATE_ID", //  TEMPLATE ID
+        import.meta.env.VITE_SERVICE_ID, // SERVICE ID
+        import.meta.env.VITE_TEMPLATE_ID, //  TEMPLATE ID
         e.target,
-        "process.env.PUBLIC_KEY" //  PUBLIC KEY
+        import.meta.env.VITE_PUBLIC_KEY //  PUBLIC KEY
       )
       .then(
         () => {
