@@ -3,17 +3,17 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 function Projects() {
   const projects = [
     {
-      title: "Artex Event System",
+      title: "Artex Solutions",
       desc: "A platform for managing events, bookings, and user participation.",
       img: "/lsm.jpeg",
       link: "https://artex-solutions.onrender.com/",
       tech: ["React", "Node", "MongoDB"],
     },
     {
-      title: "Andlly Fashion Span Store",
+      title: "HomeBridge NGO",
       desc: "A modern fashion e-commerce interface with responsive product browsing.",
       img: "/logo.jpg",
-      link: "https://artex-solutions.onrender.com/",
+      link: "https://ngo-website-brzf.onrender.com/",
       tech: ["Vite", "Tailwind", "Redux"],
     },
     {
@@ -24,7 +24,7 @@ function Projects() {
       tech: ["React", "Tailwind"],
     },
     {
-      title: "QR Code Generator",
+      title: "SaccoFlow System",
       desc: "A generator system for QR Codes with both frontend and backend support.",
       img: "/logo.jpg",
       link: "https://artex-solutions.onrender.com/",
